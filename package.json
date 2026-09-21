@@ -1,0 +1,33 @@
+{
+  "name": "copywriting-station",
+  "version": "1.0.0",
+  "description": "文案短句站点 - 精选10大场景文案，一键复制收藏，纯前端开源项目",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "start": "vite --host",
+    "dev": "vite --host --port 5173",
+    "build": "npm run fetch && vite build",
+    "preview": "vite preview --host --port 4173"
+  },
+  "keywords": [
+    "文案",
+    "短句",
+    "朋友圈",
+    "个性签名",
+    "抖音文案",
+    "小红书文案",
+    "作文素材",
+    "节日祝福",
+    "情感语录",
+    "励志",
+    "纯前端",
+    "静态网站"
+  ],
+  "author": "Copywriting Hub",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
